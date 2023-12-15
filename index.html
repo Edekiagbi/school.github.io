@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="css/call-action.css">
+    <link rel="stylesheet" href="css/feature.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/
+    jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/feature-skill.css">
+
+    
+
+</head>
+<body>
+<!--start of the hero section-->
+<div class="hero-start">
+    <!--header section for smaller devices-->
+    <div class="small-screen">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="logo">
+        </div>
+        <div id="myNav"
+         class="nav-menu">
+         <a href="javascript:void(0)" 
+         class="closebtn" onclick="closeNav()">CLOSE</a>
+         <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="admission.html">Admission</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact Us</a>
+
+         </div>
+        </div>
+    </div>
+        <span class="openBtn" onclick="openNav()"><i class="fa fa-bars"></i></span>
+        <!--header section for large devices-->
+        <div class="large-screen">
+            <div class="col-1">
+                <img src="img/logo.jpg" alt="logo">
+            </div>
+            <div class="col-2">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="admission.html">Admission</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="col-3">
+                <a href=""><i class="fa fa-search"></i></a>
+                <a href=""><i class="fa fa-user"></i></a>
+                <a href=""><i class="fa fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+
+               <!--start of hero text and form--> 
+               <div class="hero-text">
+                <p style="font-size: 50px; color: white;
+            font-family:'Times New Roman', Times, serif; text-align: center;
+                "><b></b>Education is the
+                 <strong>Best</strong> legacy</b></p>
+                 <a class="hero-btn" 
+                 href="admission.html"><i class="fa fa-user-plus"></i>Register</a>
+                 <a class="hero-btn" href="admission.html"><i class="fa fa-right-to-bracket"></i>
+                    Login</a>
+                 </div>
+               <div class="hero-form">
+                <marquee behavior="scroll" 
+                direction="right">Student Login</marquee>
+                <label for="user">Username:</label><br>
+                <input type="text" id="uname" 
+                placeholder="@username">
+            <br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="password"
+                 placeholder="enter password..."><br><br>
+                 <a class="submit-btn" 
+                 href="">Send</a>
+                 <a class="Forgot-Password" 
+                 href="">Forgot Password?</a>
+                 
+               </div>
+    </div>
+    <!--start of our service session-->
+    <div class="call-action">
+        <div class="call-image">
+<img src="img/daddybaby (2).jpg" alt="students">
+        </div>
+<div class="call-text">
+    <h1>Get Acess to Quality Courses 
+        from Expert Today</h1>
+        <p>Become a professional by developing different website
+            and understand many skills you need to get hired
+            for a remote job internationally. You will
+            also be certified upon completion of each course
+            enrolled for on our website.
+        </p>
+<a class="call-btn" href="courses.html">Discover Courses <i class="fa-solid fa-arrow-right"></i> </a>
+</div>
+    </div>
+    <!--start of mobile app-->
+    <div class="mobile-app">
+        <h3>Gospellive Academy now have a mobile App</h3>
+        <img src="img/playstore.jpg" alt="playstore logo">
+        <img src="img/googleplay.jpg" alt="">
+    </div>
+
+    <!--start a featured course-->
+    <h2 class="course-title">Our featured 
+        Courses</h2>
+        <div class="Featured">
+            <div class="box">
+                <img src="img/html.jpg"
+                 alt="logo">
+                 <h4>HTML Course</h4>
+                 <p>Learn how to develop website
+                     with coding</p>
+                     <a class="box-btn" href="admission.html">Enrol 
+                        Now<i class="fa fa-arrow-right">
+                       </i></a>
+            </div>
+            <div class="Featured">
+                <div class="box">
+                    <img src="img/css.jpg"
+                     alt="logo">
+                     <h4>CSS Course</h4>
+                     <p>Learn how to style HTML element
+                               with ease </p>
+            <a class="box-btn" href="admission.html">Enrol
+              Now<i class="fa fa-arrow-right">
+             </i></a>
+                </div>
+        <div class="Featured">
+         <div class="box">
+        <img src="img/js.jpg"
+        alt="logo">
+        <h4>Javascript Course</h4>
+         <p>Learn how to develop behaviors or
+            actions for website</p>
+            <a class="box-btn" href="admission.html">Enrol
+         Now<i class="fa fa-arrow-right">
+         </i></a>
+        </div>
+        <div class="Featured">
+            <div class="box">
+        <img src="img/jquery.jpg"
+        alt="logo">
+        <h4>JQuery Course</h4>
+         <p>Learn how to write javascript
+        in simple way
+      </p>
+     <a class="box-btn" href="admission.html">Enrol
+        Now<i class="fa fa-arrow-right">
+             </i></a>
+            </div>
+    </div>
+<!--start of frequently Asked Question-->
+<div class="accordion-container">
+    <h2 class="accordion-title">Frequently 
+        Asked Questions</h2>
+        <div class="accordion"><i class="fa-solid fa-arrow-down"></i>
+                What Skills Will I Learn?
+        </div>
+        <div class="panel">You can learn many
+             skills from frontend
+              development like:
+             
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>JQuery</li>
+                <li>WordPress</li>
+                <li>Web Flow etc...</li>
+             
+        </div>
+        <br>
+        <div class="accordion"><i class="fa-solid fa-arrow-down"></i>
+             Will i Get a Certificate?</div>
+            <div class="panel">You will get a Certificate
+                for all the courses you enrolled for at Gospellive
+                Academy </div><br> 
+
+</div>
+ <!--start of the footer session-->
+ <div class="footer-container">
+    <div class="footer-1">
+<h2>Contact Us</h2>
+<p><i class="fa fa-map-maker">Km1 ubuluku road onicha-ugbo
+    Delta State
+</i></p>
+<p><i class="fa fa-phone"></i>+23407067025115</p>
+<p><i class="fa fa-envelope"></i>abrahamagbi49@gmail
+.com</p>
+<a href=""><i class="fa-brands fa-facebook"></i></a>
+<a href=""><i class="fa-brands fa-twitter"></i></a>
+<a href=""><i class="fa-brands fa-linkedin"></i></a>
+<a href=""><i class="fa-brands fa-instagram"></i></a>
+    </div>
+<div class="footer-2">
+    <h2>My Account</h2>
+    <a href="">My Account</a>
+    <a href="">Courses</a>
+    <a href="">About Us</a>
+    <a href="">FAQs</a>
+    <a href="">Contact Us</a>
+
+</div>
+
+<div class="footer-3">
+<h2>Opening Hours</h2>
+<p><b>Monday:</b><span style="color:black;font-weight: bold;">8am-7pm</span></p>
+<p><b>Tuesday:</b><span style="color:black;font-weight: bold;">8am-7pm</span></p>
+<p><b>Wednesday:</b><span style="color:black;font-weight: bold;">8am-7pm</span></p>
+<p><b>Thursday:</b><span style="color:black;font-weight: bold;">8am-7pm</span></p>
+<p><b>Friday:</b><span style="color:black;font-weight: bold;">8am-5pm</span></p>
+</div>
+<div class="footer-4">
+    <h2>Newsletter</h2>
+<p>Subscribe to our Newsletter and be the 
+    first to get our latest update
+</p>
+<input type="email" placeholder="Email Address"><br>
+<a class="sub-btn" href="">Subscribe</a>
+</div>
+</div>
+
+<script> 
+ var acc = document.
+        getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i< acc.length; i++) {
+            acc[i].addEventListener("click", function(){
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display ==="block"){
+                    panel.style.display ="none";   
+                }else {
+                    panel.style.display="block"
+                }
+            })
+        }
+</script>
+</body>
+</html>

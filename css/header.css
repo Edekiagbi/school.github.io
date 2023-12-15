@@ -1,0 +1,169 @@
+/* style for header session*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*style for small devices */
+@media ( max-width : 750px) {
+    .large-screen{
+        display: none;
+    }
+    .small-screen {
+        display: inline-block;
+    }
+    .logo {
+        display: inline-block;
+        width: 15%;
+    }
+    .logo img {
+        display: inline-block;
+        width: 130px;
+        height: 60px;
+        vertical-align: bottom;
+        margin: 7px 0 0 7px;
+        border-radius: 8px;
+        margin-bottom: 200px;
+    }
+    .nav-menu {
+        display: inline-block;
+        height: 50%;
+        width:0 ;
+        position: absolute;
+        top:0 ;
+        right: 0;
+        background-color:blue;
+        overflow-x: hidden;
+        transition: o.5s;
+        z-index: 1;
+
+    }
+    .dropdown-content {
+        position: relative;
+        top: 3%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    .dropdown-content a {
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+        font-size: 28px;
+        color: whitesmoke;
+        transform: 0.3s;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        cursor: pointer;
+
+    }
+    .dropdown-content .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 40px;
+    }
+    .closebtn {
+        color: blue;
+        text-decoration: none;
+        font-size: 25px;
+        border:none;
+        padding: 3px;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 8px;
+        background-color: whitesmoke;
+        font-weight: bold;
+
+
+    }
+    .openBtn {
+        font-size: 30px;
+        color:white;
+        border:none;
+        float: right;
+        border-radius: 8px;
+        margin: 10px 5px 0 0;
+        padding: 15px;
+        padding: 20px;
+        box-shadow: 5px solid black;
+    }
+    .hero-form { 
+        display: none;
+    }
+    .hero-btn {
+        border: 1px solid black;
+        color: white;
+        background-color: blue;
+        padding: 8px 12px;
+        text-decoration: none;
+        border-radius: 8px;
+        margin-left: 10px;
+    
+
+    }
+    .dropdown-content a:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+    
+}
+
+/* style for large screen devices*/
+@media (min-width: 751px) {
+    .small-screen {
+        display: none;
+    }
+    
+    .openBtn {
+        display: none;
+    }
+    .large-screen {
+        width: 98%;
+        display: block;
+        padding:6px;
+        height: 60px;
+    }
+    .col-1 {
+display: inline-block;
+width: 10%;
+color: white;
+
+    }
+    .col-2 {
+        display: inline-block;
+        width: 70%;
+        text-align: center;
+    
+    }
+    .col-3 {
+        display: inline-block;
+        width: 10%;
+        text-align: center;
+    
+    }
+    .col-1 img {
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        vertical-align: middle;
+    
+    }
+    .col-2 a, .col-3 a {
+        display: inline-block;
+        border: none;
+        font-size: 18px;
+        padding: 6px 7px;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: point;
+    }
+    .col-2 a:hover, .col-3 a:hover {
+        background-color: blue;
+        border: 1px solid white;
+        padding: 6px 7px;
+        border-radius: 8px;
+    }
+}

@@ -1,0 +1,46 @@
+/* style for accodion session*/
+
+.accordion {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.accordion-title {
+text-align: center;
+font-size: 35px;
+}
+
+.accordion {
+display:block;
+font-size:18px;
+font-weight:bold;
+padding-left: 8px;
+text-align:left;
+background-color:blue;
+color:white;
+margin: 0 auto;
+text-align: center;
+border-radius: 8px;
+
+} 
+
+.panel {
+display: none;
+width: 79%;
+padding: 20px 5px 20px 15px;
+background-color:whitesmoke;
+border-radius: 8px;
+margin:0 auto;
+}
+
+.panel ul li {
+    display:none ;
+    width: 79%;
+    padding: 20px 5px 20px 15px;
+    background-color: black;
+    border-radius: 8px;
+    margin:0 auto;
+    }
+    

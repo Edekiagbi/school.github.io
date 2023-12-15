@@ -1,0 +1,86 @@
+/* style for featured session*/
+.featured {
+    display: inline-block;
+    width: 85%;
+    margin: 0 auto;
+    background-image: url("img/pic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.course-title {
+text-align: center;
+font-size: 35px;
+margin-bottom: 45px;
+font-style: italic;
+font-weight: bold;
+}
+
+.box {
+display: inline-block;
+width: 22%;
+padding: 16px;
+border-radius: 8px;
+box-shadow: 0 4px 6px 0 rgb (0,0,0,0.4);
+text-align: center;
+background-color: cadetblue;
+margin: 0 5px;
+}
+
+.box img {
+width: 75px;
+height: 70px;
+border-radius: 50px;
+margin-top: -40px;
+box-shadow: #eee;
+}
+
+.box-btn {
+border: 1px solid black;
+background-color: transparent;
+color: blue;
+padding: 6px 8px;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bolder;
+
+}
+.box p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box-btn:hover {
+border: 2px solid black;
+color: blue;
+}
+
+@media (max-width: 700px) {
+    .box {
+        display: inline-block;
+        width: 90%;
+        margin-left: 10px;
+        margin-right:auto;
+        margin-top: 50px;
+    }
+}
+@media(min-width: 750px) {
+    .box {
+        display: inline-block;
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+    border-radius: 7px;
+    padding: 30px;
+    box-shadow: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+        margin-right:auto;
+        margin-top: 50px;
+    
+    }
+}
+
